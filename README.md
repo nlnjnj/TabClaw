@@ -71,6 +71,23 @@ TabClaw builds upon the vision of personal AI assistants pioneered by [OpenClaw]
 
 ---
 
+## Citation
+
+If you use TabClaw in your research or project, please cite:
+
+```bibtex
+@misc{tabclaw2026,
+  title        = {TabClaw: A Local AI Agent for Conversational Table Analysis},
+  author       = {Yu, Shuo and Wang, Daoyu and Li, Qingchuan},
+  year         = {2026},
+  howpublished = {\url{https://github.com/fishsure/TabClaw}},
+  note         = {State Key Laboratory of Cognitive Intelligence,
+                  University of Science and Technology of China}
+}
+```
+
+---
+
 ## License
 
 MIT
