@@ -6,6 +6,12 @@ TabClaw is a local AI agent for table analysis. Drop in a CSV or Excel file, des
 
 ---
 
+## Architecture
+
+<img src="asset/TabClaw_framework.png" alt="TabClaw Architecture" width="100%" />
+
+---
+
 ## What makes TabClaw different
 
 ### 🗺️ It plans before it acts
@@ -42,6 +48,12 @@ bash run.sh
 ```
 
 Open **http://localhost:8000** in your browser.
+
+---
+
+## Demo
+
+<img src="asset/TabClaw_demo.png" alt="TabClaw Demo" width="100%" />
 
 ---
 
