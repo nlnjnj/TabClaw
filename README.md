@@ -19,9 +19,6 @@ Drop in a CSV or Excel file and describe what you want. TabClaw shows you its pl
 ### 🗺️ It plans before it acts
 Before touching your data, TabClaw drafts a step-by-step execution plan and shows it to you. You can reorder steps, rewrite them, or add new ones — then approve and execute. After finishing, it does a self-check to make sure nothing was missed.
 
-### 🤖 Multiple agents work in parallel
-When you upload more than one table and ask a comparative question, TabClaw automatically assigns a dedicated analyst agent to each table. They run in parallel, then an aggregator synthesises their findings — highlighting where results agree (**[CONSENSUS]**) and where they conflict (**[UNCERTAIN]**).
-
 ### 🧠 It learns from every session
 After completing a non-trivial task, TabClaw reflects on what it did and distils the pattern into a reusable **custom skill**. Next time you ask something similar, it calls that skill directly. The more you use it, the smarter it gets.
 
@@ -30,6 +27,9 @@ TabClaw picks up on how you like to work — preferred metrics, output format, d
 
 ### 🙋 It asks when it's not sure
 If a request could reasonably mean several different things, TabClaw pauses and presents you with a concise set of clarification options before proceeding. No silent wrong assumptions.
+
+### 🤖 Multiple agents work in parallel
+When you upload more than one table and ask a comparative question, TabClaw automatically assigns a dedicated analyst agent to each table. They run in parallel, then an aggregator synthesises their findings — highlighting where results agree (**[CONSENSUS]**) and where they conflict (**[UNCERTAIN]**).
 
 ### 🛠️ Fully extensible
 You can define your own skills — write a prompt template or drop in Python code — and the agent will call them just like built-in skills. Combined with skill learning, TabClaw gradually builds a library tailored to your specific workflows.
