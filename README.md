@@ -41,7 +41,7 @@ pip install -r requirements.txt
 bash run.sh
 ```
 
-Open **http://localhost:8022** in your browser.
+Open **http://localhost:8000** in your browser.
 
 ---
 
@@ -90,8 +90,6 @@ If you use TabClaw in your research or project, please cite:
   title        = {TabClaw: A Local AI Agent for Conversational Table Analysis},
   author       = {Yu, Shuo and Wang, Daoyu and Li, Qingchuan and Cheng, Mingyue and Liu, Qi},
   year         = {2026},
-  howpublished = {\url{https://github.com/fishsure/TabClaw}},
-  note         = {State Key Laboratory of Cognitive Intelligence,
-                  University of Science and Technology of China}
+  howpublished = {\url{https://github.com/fishsure/TabClaw}}
 }
 ```

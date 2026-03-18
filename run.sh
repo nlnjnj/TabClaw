@@ -9,8 +9,8 @@ echo "Installing Python dependencies..."
 pip3 install -q fastapi "uvicorn[standard]" python-multipart aiofiles
 
 echo "Starting TabClaw server..."
-echo "Open http://localhost:8022 in your browser"
+echo "Open http://localhost:8000 in your browser"
 echo "(Press Ctrl+C to stop)"
 echo ""
 
-python3 -m uvicorn app:app --host 0.0.0.0 --port 8022 --reload
+python3 -m uvicorn app:app --host 0.0.0.0 --port 8000 --reload
