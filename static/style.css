@@ -844,8 +844,8 @@ input:checked + .code-track::after { background: var(--orange); }
   white-space: nowrap;
 }
 .btn:hover { background: var(--surface); color: var(--text); border-color: var(--text-dim); }
-.btn.primary { background: var(--primary-dark); color: var(--primary); border-color: var(--primary-dark); }
-.btn.primary:hover { background: var(--primary); color: var(--bg); }
+.btn.primary { background: var(--primary); color: var(--bg); border-color: var(--primary); }
+.btn.primary:hover { background: var(--primary-dark); color: var(--primary); border-color: var(--primary-dark); }
 .btn.danger { color: var(--red); }
 .btn.danger:hover { background: var(--red)22; border-color: var(--red); }
 .btn.icon-only { padding: 4px 6px; min-width: 28px; justify-content: center; }
