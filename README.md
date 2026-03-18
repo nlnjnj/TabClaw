@@ -55,6 +55,21 @@ Open **http://localhost:8022** in your browser.
 | [🛠️ Skills Reference](docs/skills.md) | Built-in skills, custom skills, sandbox |
 
 ---
+## Contributors
+
+**Team Members**: Shuo Yu, Daoyu Wang, Qingchuan Li
+
+**Supervisors**: Qi Liu, Mingyue Cheng
+
+**Affiliation**: State Key Laboratory of Cognitive Intelligence, University of Science and Technology of China
+
+---
+
+## Acknowledgements
+
+TabClaw builds upon the vision of personal AI assistants pioneered by [OpenClaw](https://github.com/openclaw/openclaw), whose work on agentic interaction design deeply inspired our approach to conversational table analysis. We are grateful to the broader open-source agent community for the tools and ideas that made this project possible.
+
+---
 
 ## License
 
