@@ -1,10 +1,10 @@
 <img src="asset/logo_rmbg.png" alt="TabClaw" width="100%" />
 
-# TabClaw: Plan-First AI for Table Analysis
+# TabClaw: Interactive AI Agent for Table Analysis
 
-> **Your data, your machine, your agent.**
+> **Personalized. Self-evolving. Entirely on your machine.**
 
-Drop in a CSV or Excel file and ask your question in plain language. TabClaw drafts an execution plan, dispatches parallel agents across your tables, distils reusable skills from every session, and delivers structured answers — entirely on your machine, no cloud required.
+Drop in a CSV or Excel file and describe what you want. TabClaw shows you its plan before acting, dispatches parallel agents across your tables, remembers your preferences across sessions, and distils reusable skills from every interaction — growing smarter the more you use it.
 
 ---
 
