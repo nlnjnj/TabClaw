@@ -1,4 +1,4 @@
-<img src="asset/logo_rmbg.png" alt="TabClaw" height="80" />
+<img src="asset/logo_rmbg.png" alt="TabClaw" width="100%" />
 
 **Table Intelligence Agent** — Upload CSVs or Excel files and talk to your data. TabClaw runs a full ReAct agent loop with planning, multi-agent parallel analysis, self-learning skills, and persistent memory — all in a local web UI with no external services required beyond an LLM API.
 
