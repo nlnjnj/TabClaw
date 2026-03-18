@@ -78,7 +78,7 @@ If you use TabClaw in your research or project, please cite:
 ```bibtex
 @misc{tabclaw2026,
   title        = {TabClaw: A Local AI Agent for Conversational Table Analysis},
-  author       = {Yu, Shuo and Wang, Daoyu and Li, Qingchuan},
+  author       = {Yu, Shuo and Wang, Daoyu and Li, Qingchuan and Cheng, Mingyue and Liu, Qi},
   year         = {2026},
   howpublished = {\url{https://github.com/fishsure/TabClaw}},
   note         = {State Key Laboratory of Cognitive Intelligence,
