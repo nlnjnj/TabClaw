@@ -55,6 +55,16 @@ Open **http://localhost:8022** in your browser.
 | [🛠️ Skills Reference](docs/skills.md) | Built-in skills, custom skills, sandbox |
 
 ---
+
+## Related Projects
+
+### 🦞 [Claw-R1](https://agentr1.github.io/Claw-R1/) — Agentic RL for General Agents
+
+From the same team: **Claw-R1** is a training framework that bridges Agentic RL and next-generation general agents (like TabClaw, OpenClaw, Claude Code). It introduces a **Middleware Layer** as the sole bridge between the agent side and training side, enabling white-box and black-box agents to participate in RL training via standard HTTP — a paradigm no existing framework supports.
+
+→ [Project Page](https://agentr1.github.io/) · [Documentation](https://agentr1.github.io/Claw-R1/)
+
+---
 ## Contributors
 
 **Team Members**: Shuo Yu, Daoyu Wang, Qingchuan Li
