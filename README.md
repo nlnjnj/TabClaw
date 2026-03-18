@@ -85,9 +85,3 @@ If you use TabClaw in your research or project, please cite:
                   University of Science and Technology of China}
 }
 ```
-
----
-
-## License
-
-MIT
