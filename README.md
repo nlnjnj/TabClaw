@@ -2,7 +2,7 @@
 
 # TabClaw: Interactive AI Agent for Table Analysis
 
-> **Personalized. Self-evolving. Entirely on your machine.**
+> **Personalized. Self-evolving. Fully interactive.**
 
 Drop in a CSV or Excel file and describe what you want. TabClaw shows you its plan before acting, dispatches parallel agents across your tables, remembers your preferences across sessions, and distils reusable skills from every interaction — growing smarter the more you use it.
 
