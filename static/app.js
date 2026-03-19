@@ -69,6 +69,7 @@ class TabClawApp {
       memory: {},
       planMode: true,
       codeToolEnabled: false,
+      skillLearnEnabled: false,
       streaming: false,
       currentPlan: null,
       currentPlanMessage: '',
@@ -143,6 +144,9 @@ class TabClawApp {
     });
     document.getElementById('code-tool-check').addEventListener('change', e => {
       this.state.codeToolEnabled = e.target.checked;
+    });
+    document.getElementById('skill-learn-check').addEventListener('change', e => {
+      this.state.skillLearnEnabled = e.target.checked;
     });
 
     // Theme toggle
@@ -274,6 +278,10 @@ class TabClawApp {
     if (codeLabel) codeLabel.textContent = zh ? '代码工具' : 'Code Tool';
     const codeHint = document.getElementById('code-tool-hint-span');
     if (codeHint) codeHint.textContent = zh ? '— Python 沙箱' : '— Python sandbox';
+    const skillLearnLabel = document.getElementById('skill-learn-label-text');
+    if (skillLearnLabel) skillLearnLabel.textContent = zh ? '技能学习' : 'Skill Learning';
+    const skillLearnHint = document.getElementById('skill-learn-hint-span');
+    if (skillLearnHint) skillLearnHint.textContent = zh ? '— 默认关闭' : '— auto off';
     // Plan modal buttons
     const planCancel = document.getElementById('plan-cancel-btn');
     if (planCancel) planCancel.textContent = zh ? '取消' : 'Cancel';
@@ -496,9 +504,10 @@ class TabClawApp {
     try {
       const endpoint = executePlan ? '/api/execute-plan' : '/api/chat';
       const codeTool = this.state.codeToolEnabled;
+      const skillLearn = this.state.skillLearnEnabled;
       const body = executePlan
-        ? { message, steps, code_tool: codeTool }
-        : { message, code_tool: codeTool };
+        ? { message, steps, code_tool: codeTool, skill_learn: skillLearn }
+        : { message, code_tool: codeTool, skill_learn: skillLearn };
 
       const res = await fetch(endpoint, {
         method: 'POST',

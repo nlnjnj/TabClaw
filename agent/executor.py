@@ -25,6 +25,7 @@ class AgentExecutor:
         history: List,
         result_tables_store: Dict,
         code_tool: bool = False,
+        auto_learn: bool = False,
     ) -> AsyncGenerator:
         """Execute user request directly (no plan)."""
         messages = self._build_messages(message, tables, history)
@@ -37,9 +38,10 @@ class AgentExecutor:
             elif event["type"] == "tool_result" and tool_calls_log:
                 tool_calls_log[-1]["result"] = event.get("text", "")[:200]
         await self._try_update_memory(message, tables)
-        skill = await self.distiller.try_distill(message, tool_calls_log)
-        if skill:
-            yield {"type": "skill_learned", "skill": skill}
+        if auto_learn:
+            skill = await self.distiller.try_distill(message, tool_calls_log)
+            if skill:
+                yield {"type": "skill_learned", "skill": skill}
 
     async def execute_plan(
         self,
@@ -49,6 +51,7 @@ class AgentExecutor:
         history: List,
         result_tables_store: Dict,
         code_tool: bool = False,
+        auto_learn: bool = False,
     ) -> AsyncGenerator:
         """Execute a user-approved plan step by step."""
         base_messages = self._build_messages(
@@ -101,9 +104,10 @@ class AgentExecutor:
         yield {"type": "reflect_done"}
 
         await self._try_update_memory(message, tables)
-        skill = await self.distiller.try_distill(message, tool_calls_log)
-        if skill:
-            yield {"type": "skill_learned", "skill": skill}
+        if auto_learn:
+            skill = await self.distiller.try_distill(message, tool_calls_log)
+            if skill:
+                yield {"type": "skill_learned", "skill": skill}
 
     # ------------------------------------------------------------------
     # Core streaming agent loop

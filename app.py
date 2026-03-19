@@ -151,6 +151,7 @@ async def download_table(table_id: str):
 class ChatRequest(BaseModel):
     message: str
     code_tool: bool = False
+    skill_learn: bool = False
 
 
 class PlanRequest(BaseModel):
@@ -165,6 +166,7 @@ class ExecutePlanRequest(BaseModel):
     message: str
     steps: List[Dict]
     code_tool: bool = False
+    skill_learn: bool = False
 
 
 def _sse(obj: Any) -> str:
@@ -211,6 +213,7 @@ async def chat(request: ChatRequest):
                     history=chat_history,
                     result_tables_store=tables,
                     code_tool=request.code_tool,
+                    auto_learn=request.skill_learn,
                 )
             async for event in gen:
                 yield _sse(event)
@@ -249,6 +252,7 @@ async def execute_plan(request: ExecutePlanRequest):
                 history=chat_history,
                 result_tables_store=tables,
                 code_tool=request.code_tool,
+                auto_learn=request.skill_learn,
             ):
                 yield _sse(event)
                 await asyncio.sleep(0)
