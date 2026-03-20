@@ -1,7 +1,7 @@
 site_name: TabClaw
 site_description: A local AI agent for conversational table analysis — no SQL, no code, no cloud.
 site_author: Shuo Yu, Daoyu Wang, Qingchuan Li
-site_url: https://fishsure.github.io/TabClaw/
+site_url: https://agentr1.github.io/tab-claw/
 repo_url: https://github.com/fishsure/TabClaw
 repo_name: fishsure/TabClaw
 edit_uri: ""
