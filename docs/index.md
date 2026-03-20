@@ -14,13 +14,9 @@ hide:
     remembers your preferences across sessions, and distils reusable skills from every interaction —
     growing smarter the more you use it.
   </p>
-  <div class="tc-buttons">
-    <a href="https://github.com/fishsure/TabClaw" class="md-button md-button--primary">
-      :fontawesome-brands-github: GitHub
-    </a>
-    <a href="features/" class="md-button">
-      :material-book-open-variant: Documentation
-    </a>
+  <div class="tc-buttons" markdown="1">
+    [:fontawesome-brands-github: GitHub](https://github.com/fishsure/TabClaw){ .md-button .md-button--primary }
+    [:material-book-open-variant: Documentation](features/){ .md-button }
   </div>
 </div>
 
