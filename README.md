@@ -1,6 +1,10 @@
 <h1 align="center"> TabClaw: Interactive AI Agent for Table Analysis </h1>
 
 <p align="center">
+  <strong>English</strong> · <a href="README_zh.md">中文</a>
+</p>
+
+<p align="center">
   <a href="https://agentr1.github.io/tab-claw/"><img src="https://img.shields.io/badge/Project-Home-orange.svg" alt="Project Home"></a>
   <a href="https://github.com/fishsure/TabClaw/stargazers"><img src="https://img.shields.io/github/stars/fishsure/TabClaw" alt="GitHub Repo stars"></a>
   <a href="https://github.com/fishsure/TabClaw/network/members"><img src="https://img.shields.io/github/forks/fishsure/TabClaw" alt="GitHub forks"></a>
