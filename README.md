@@ -93,11 +93,15 @@ Open **http://localhost:8000** in your browser. Click **一键体验** to try a 
 
 ## Demo
 
+**Note:** GitHub READMEs don’t render embedded `<video>` players. **Click the image or link below** to open the MP4 in GitHub’s file viewer (built-in player).
+
 <p align="center">
-  <video src="asset/TabClaw.mp4" controls width="85%" playsinline></video>
+  <a href="asset/TabClaw.mp4">
+    <img src="asset/TabClaw_demo.png" alt="Demo video — click to play" width="85%" />
+  </a>
 </p>
 
-<p align="center"><img src="asset/TabClaw_demo.png" alt="TabClaw UI (Light)" width="85%" /></p>
+<p align="center"><a href="asset/TabClaw.mp4"><strong>▶ Demo video (MP4)</strong></a></p>
 
 <p align="center"><img src="asset/dark_demo.png" alt="TabClaw UI (Dark)" width="85%" /></p>
 

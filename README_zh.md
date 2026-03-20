@@ -95,11 +95,15 @@ bash run.sh
 
 ## 演示
 
+**说明：** GitHub 仓库主页的 README **不会显示内嵌视频播放器**。请**点击下方图片或链接**，在文件页用内置播放器观看 MP4。
+
 <p align="center">
-  <video src="asset/TabClaw.mp4" controls width="85%" playsinline></video>
+  <a href="asset/TabClaw.mp4">
+    <img src="asset/TabClaw_demo.png" alt="演示视频 — 点击播放" width="85%" />
+  </a>
 </p>
 
-<p align="center"><img src="asset/TabClaw_demo.png" alt="TabClaw 界面（浅色）" width="85%" /></p>
+<p align="center"><a href="asset/TabClaw.mp4"><strong>▶ 演示视频（MP4）</strong></a></p>
 
 <p align="center"><img src="asset/dark_demo.png" alt="TabClaw 界面（深色）" width="85%" /></p>
 
