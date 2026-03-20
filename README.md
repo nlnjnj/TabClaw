@@ -93,6 +93,10 @@ Open **http://localhost:8000** in your browser. Click **一键体验** to try a 
 
 ## Demo
 
+<p align="center">
+  <video src="asset/TabClaw.mp4" controls width="85%" playsinline></video>
+</p>
+
 <p align="center"><img src="asset/TabClaw_demo.png" alt="TabClaw UI (Light)" width="85%" /></p>
 
 <p align="center"><img src="asset/dark_demo.png" alt="TabClaw UI (Dark)" width="85%" /></p>

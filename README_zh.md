@@ -17,6 +17,8 @@
 
 > **千人千面 · 越用越强 · 全程交互**
 
+
+
 拖入一张 CSV 或 Excel，用自然语言说出你想要什么——TabClaw 会先展示执行计划，再并行调度多个智能体处理你的表格，跨会话记住你的偏好，并从每次交互中提炼可复用技能。用得越多，它就越懂你。
 
 ---
@@ -92,6 +94,10 @@ bash run.sh
 ---
 
 ## 演示
+
+<p align="center">
+  <video src="asset/TabClaw.mp4" controls width="85%" playsinline></video>
+</p>
 
 <p align="center"><img src="asset/TabClaw_demo.png" alt="TabClaw 界面（浅色）" width="85%" /></p>
 
